@@ -25,10 +25,8 @@ function pressIt() {
 function submitIt() {
   $('form').on('submit', function()
   {
-    if ($('input:first').val() === 'type') {
       alert("Your form is going to be submitted now.");
       return;
-    } 
   })
 }
 
